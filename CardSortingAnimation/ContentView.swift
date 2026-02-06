@@ -141,7 +141,8 @@ struct StudentCardView: View {
                 }
                 .padding(.horizontal)
                 .padding(.bottom, 12)
-                .transition(.opacity.combined(with: .move(edge: .top)))
+//                .transition(.opacity.combined(with: .move(edge: .top)))
+                .transition(.offset(x: 0, y: 50))
             }
         }
         .frame(maxWidth: .infinity)
